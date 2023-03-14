@@ -109,3 +109,7 @@ search:
   path: search.xml
   field: all
   content: true
+
+#以下为新加插件
+butterfly_article_double_row:
+  enable: true

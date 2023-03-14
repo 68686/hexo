@@ -606,14 +606,14 @@ beautify:
 font:
   global-font-size: 15px
   code-font-size: 14px
-  font-family: ali,  Consolas_1, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
-  code-font-family: Consolas_1, var(--global-font), "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
+  font-family: ALI, LXGW, var(--global-font) -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif
+  code-font-family: ALI, LXGW, var(--global-font), "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
   font_link:
-  font-family: ali, "Microsoft YaHei" #'STHupo'
+  font-family: ALI #'STHupo'
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -881,9 +881,16 @@ css_prefix: true
 inject:
   head:   
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="/css/universe.css"> #流星特效
+    - <link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"> #顶部渐变条色加载条
+    - <link rel="stylesheet" href="/css/readPercent.css"> #右边按钮阅读进度（Leonus）
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - <canvas id="universe"></canvas> #流星特效
+    - <script defer src="/js/universe.js"></script>
+    - <script async src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script> #顶部渐变条色加载条
+    - <script defer data-pjax src="/js/readPercent.js"></script> #右边按钮阅读进度（Leonus）
+    # - <script src="xxxx"></script>    
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -959,7 +966,7 @@ CDN:
     # artalk_js:
     # artalk_css:
 
-#一下为新加插件
+#以下为新加插件
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
 swiper: # front_matter添加swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
@@ -976,3 +983,43 @@ swiper: # front_matter添加swiper_index: 1 #置顶轮播图顺序，非负整�
   swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
   custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
   custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法    
+
+#hexo-butterfly-wowjs
+wowjs:
+  enable: true #控制动画开关。true是打开，false是关闭
+  priority: 10 #过滤器优先级
+  mobile: false #移动端是否启用，默认移动端禁用
+  animateitem:
+    - class: recent-post-item #必填项，需要添加动画的元素的class
+      style: animate__pulse #必填项，需要添加的动画 https://animate.style/
+      duration: 1s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+      delay: 500ms #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+      offset: 100 #选填项，开始动画的距离（相对浏览器底部）
+      iteration: 1 #选填项，动画重复的次数
+    - class: card-widget
+      style: animate__zoomIn
+  animate_css: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css
+  wow_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js
+  wow_init_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js
+
+# electric_clock (安知鱼电子钟)
+# see https://anzhiy.cn/posts/fc18.html
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  exclude:
+    # - /posts/
+    # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif #加载动画自定义
+  clock_css: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css
+  clock_js: https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js
+  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
+  qweather_key: a325318bad4946e8b1fa04108dd67c0d # 和风天气key
+  gaud_map_key:  cf38f43e642a2e09db0913a4a619f78b # 高得地图web服务key
+  default_rectangle: false # 开启后将一直显示rectangle位置的天气，否则将获取访问者的地理位置与天气
+  rectangle: 113.34532,23.15624 # 获取访问者位置失败时会显示该位置的天气，同时该位置为开启default_rectangle后的位置
