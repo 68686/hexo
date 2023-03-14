@@ -986,7 +986,7 @@ swiper: # front_matter添加swiper_index: 1 #置顶轮播图顺序，非负整�
 
 #hexo-butterfly-wowjs
 wowjs:
-  enable: true #控制动画开关。true是打开，false是关闭
+  enable: false #控制动画开关。true是打开，false是关闭
   priority: 10 #过滤器优先级
   mobile: false #移动端是否启用，默认移动端禁用
   animateitem:
