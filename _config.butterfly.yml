@@ -521,7 +521,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://images.unsplash.com/photo-1615280825886-fa817c0a06cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80)
+background: #url(https://images.unsplash.com/photo-1615280825886-fa817c0a06cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80)
 
 # Footer Background
 footer_bg: true
@@ -883,13 +883,13 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/universe.css"> #流星特效
     - <link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"> #顶部渐变条色加载条
-    - <link rel="stylesheet" href="/css/readPercent.css"> #右边按钮阅读进度（Leonus）
+   # - <link rel="stylesheet" href="/css/readPercent.css"> #右边按钮阅读进度（Leonus）
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <canvas id="universe"></canvas> #流星特效
     - <script defer src="/js/universe.js"></script>
     - <script async src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script> #顶部渐变条色加载条
-    - <script defer data-pjax src="/js/readPercent.js"></script> #右边按钮阅读进度（Leonus）
+    #- <script defer data-pjax src="/js/readPercent.js"></script> #右边按钮阅读进度（Leonus）
     # - <script src="xxxx"></script>    
 
 # CDN
