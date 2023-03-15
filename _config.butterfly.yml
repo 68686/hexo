@@ -631,7 +631,7 @@ subtitle:
   typeSpeed: 150 # type speed in milliseconds
   backSpeed: 50 # backspacing speed in milliseconds
   # loop (循環打字)
-  loop: true
+  loop: false
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
@@ -900,6 +900,8 @@ inject:
     - <script defer src="/js/lunar.js"></script> # 农历计算
     - <script defer src="/js/day.js"></script> # 节日弹窗    
     - <script async src="/js/title.js"></script> #恶搞title
+    - <script defer src="/js/fomal.js"></script>
+    - <script defer src="/js/runtime.js"></script> # 页脚计时器
     #- <script defer data-pjax src="/js/readPercent.js"></script> #右边按钮阅读进度（Leonus）
     #- <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script> #樱花特效
     # - <script src="xxxx"></script>    
