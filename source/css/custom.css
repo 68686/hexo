@@ -607,3 +607,12 @@ h6::before {
   border-radius: 12px;
   border: 0.5px solid #80808030;
 }  
+
+/* .iconfont {
+    font-family: "iconfont" !important;
+
+    font-size: 3em;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } */
