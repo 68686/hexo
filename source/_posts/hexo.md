@@ -1,5 +1,6 @@
 ---
 title: hexo config
+categories: 666
 abbrlink: 5e1b6d3c
 ---
 
