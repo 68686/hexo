@@ -194,3 +194,9 @@ algolia:
     - slug
     - tags
     - title
+
+# 站点地图
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
