@@ -8,7 +8,7 @@ function createtime() {
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
   var grt = new Date("08/09/2022 00:00:00");
-...
+
   let currentTimeHtml = "";
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
