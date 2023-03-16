@@ -1,5 +1,6 @@
 ---
 title: hexo config
+abbrlink: 5e1b6d3c
 ---
 
 你可以直接在文章的front-matter区域里添加sticky: 1属性来把这篇文章置顶。数值越大，置顶的优先级越大。

@@ -1,14 +1,15 @@
 ---
 title: 加密测试
 tags:
-- 作为日记加密
-date: 2023-03-01 21:12:21
+  - 作为日记加密
 password: 123456
-abstract: 有东西被加密了, 请输入密码查看.
-message: 您好, 这里需要密码.
+abstract: '有东西被加密了, 请输入密码查看.'
+message: '您好, 这里需要密码.'
 theme: xray
-wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
-wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+wrong_pass_message: '抱歉, 这个密码看着不太对, 请再试试.'
+wrong_hash_message: '抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.'
+abbrlink: '53963325'
+date: 2023-03-01 21:12:21
 ---
 
 ## 加密测试
