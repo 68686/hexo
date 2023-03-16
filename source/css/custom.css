@@ -600,3 +600,10 @@ h6::before {
   .menus_items .menus_item:nth-child(2) .menus_item_child {
     left: -125px;
   }
+
+/* 图片圆角和边框 */
+.post-content img,
+#article-container:has(.fj-gallery, #gitZone, .about_page) img {
+  border-radius: 12px;
+  border: 0.5px solid #80808030;
+}  
