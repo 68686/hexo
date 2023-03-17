@@ -608,11 +608,11 @@ h6::before {
   border: 0.5px solid #80808030;
 }  
 
-/* .iconfont {
-    font-family: "iconfont" !important;
 
-    font-size: 3em;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  } */
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 4em;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}  
