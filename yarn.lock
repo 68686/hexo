@@ -788,6 +788,11 @@ finalhandler@1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
+font-awesome-animation@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/font-awesome-animation/-/font-awesome-animation-1.1.1.tgz"
+  integrity sha512-WHl4zhyb0LeqT+v2JClv5yNZ+63e2Mbbu+9ycL3FGVHtZA8zn4iaMBxA6AgcJySLlfdjuTEA0lBZBW2CE1cwpQ==
+
 form-data@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmmirror.com/form-data/-/form-data-4.0.0.tgz"
@@ -915,6 +920,11 @@ hexo-butterfly-swiper@^1.0.12:
   integrity sha512-2gdp6/rlWIbTQH6/HALodc6QXiO7RV2cNbN6LTJJPj+nFZ9/WQnset9u5KEo8+5G8VR/FAJ4kojvu0+nbvZVxA==
   dependencies:
     pug "^3.0.0"
+
+hexo-butterfly-tag-plugins-plus@^1.0.17:
+  version "1.0.17"
+  resolved "https://registry.npmjs.org/hexo-butterfly-tag-plugins-plus/-/hexo-butterfly-tag-plugins-plus-1.0.17.tgz"
+  integrity sha512-GpQS8YiEFv989kclBedKaRBhzA8yx+Boq/v04Nn04KCibnhv5EJj5E/OV3QXz1jw8mCwGlOyiL7xVSqA6KyRQQ==
 
 hexo-butterfly-wowjs@^1.0.5:
   version "1.0.5"

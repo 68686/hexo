@@ -616,3 +616,9 @@ h6::before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }  
+
+
+/*侧边滑动颜色*/
+:root {
+    --btn-bg: #ad4e29;
+}
