@@ -29,3 +29,13 @@ category_per_img category 子页面的 top_img，可配置每个 category 的 to
 # 2.在线链接
 {% pdf https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/pdf/小作文讲义.pdf %}
 ```
+
+1. 带 {% u 下划线 %} 的文本
+2. 带 {% emp 着重号 %} 的文本
+3. 带 {% wavy 波浪线 %} 的文本
+4. 带 {% del 删除线 %} 的文本
+5. 键盘样式的文本 {% kbd command %} + {% kbd D %}
+6. 密码样式的文本：{% psw 这里没有验证码 %}
+
+{% tip warning faa-horizontal animated %}warning{% endtip %}
+{% tip ban faa-flash animated %}ban{% endtip %}
