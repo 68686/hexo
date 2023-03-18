@@ -888,7 +888,7 @@ inject:
     - <link rel="stylesheet" href="/css/universe.css"> #流星特效
     - <link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"> #顶部渐变条色加载条
     - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css"> # 引入组件库 弹窗
-    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3957892_igghz5rjoh.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3957892_trhydb5ag6q.css">
     #- <link rel="stylesheet" href="/css/waves.css"> #文章顶波浪线    
    # - <link rel="stylesheet" href="/css/readPercent.css"> #右边按钮阅读进度（Leonus）
     # - <link rel="stylesheet" href="/xxx.css">
@@ -910,7 +910,7 @@ inject:
     - <script src="https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js"></script> # jQuery
     - <script async data-pjax src="/js/txmap.js"></script> # 腾讯位置API    
     - <script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script> #文章统计
-    - <script src="//at.alicdn.com/t/c/font_3957892_igghz5rjoh.js"></script>     
+    - <script src="//at.alicdn.com/t/c/font_3957892_trhydb5ag6q.js"></script>     
     #- <script defer data-pjax src="/js/readPercent.js"></script> #右边按钮阅读进度（Leonus）
     #- <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script> #樱花特效
     # - <script src="xxxx"></script>    
