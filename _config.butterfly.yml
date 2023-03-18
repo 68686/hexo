@@ -170,7 +170,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # anchor 文章锚点
@@ -1087,3 +1087,7 @@ tag_plugins:
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
     carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css  
+
+# 主页卡片样式
+# Docs: https://akilar.top/posts/d6b69c49/
+index_card_style: multicard #multicard # slidecard | multicard    

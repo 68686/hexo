@@ -69,7 +69,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 8 #每页显示的文章数
+  per_page: 12 #每页显示的文章数
   order_by: -date
 
 # Category & Tag
@@ -119,7 +119,7 @@ search:
 
 #以下为新加插件
 butterfly_article_double_row:
-  enable: true
+  enable: false
 
 #首页分类磁贴1.0
 magnet:
