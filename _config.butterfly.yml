@@ -35,8 +35,9 @@ copy:
 # formal:
 #   icon: link || the description
 social: #图标名：url || 描述性文字
-   fab fa-github: https://github.com/xxxxx || Github
-   fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+   #fab fa-github: https://github.com/xxxxx || Github
+   #fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+   QQ邮箱: mailto:123456@qq.com || icon-email || faa-tada
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
