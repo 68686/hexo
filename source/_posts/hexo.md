@@ -1,8 +1,12 @@
 ---
 title: hexo config
-categories: 666
+description: hexo配置
+categories: config
 abbrlink: 5e1b6d3c
 ---
+hexo部分配置
+
+## hexo部分配置
 
 你可以直接在文章的front-matter区域里添加sticky: 1属性来把这篇文章置顶。数值越大，置顶的优先级越大。
 
