@@ -64,7 +64,7 @@ function showWelcome() {
             ip = ipLoacation.result.ip;
             switch (ipLoacation.result.ad_info.province) {
                 case "北京市":
-                    posdesc = "北京欢迎你~~~";
+                    posdesc = "北京欢迎您~~~";
                     break;
                 case "天津市":
                     posdesc = "讲段相声吧。";
