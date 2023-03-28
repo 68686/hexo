@@ -651,3 +651,9 @@ svg.icon {
   fill: currentColor;
   overflow: hidden;
 }
+
+
+.loading-img {
+  background: url(/img/hello.jpg) no-repeat center center;
+  background-size: cover;
+}

@@ -201,8 +201,8 @@ toc:
   scroll_percent: true
 
 post_copyright:
-  enable: false
-  decode: false
+  enable: true
+  decode: true
   author_href:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -660,9 +660,9 @@ preloader:
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: /css/progress_bar.css
 
 # aside (側邊欄)
 # --------------------------------------
