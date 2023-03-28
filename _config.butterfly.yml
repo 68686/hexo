@@ -269,7 +269,7 @@ sharejs:
 # AddToAny
 # https://www.addtoany.com/
 addtoany:
-  enable: true
+  enable: false
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
 # Comments System
