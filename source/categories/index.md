@@ -1,7 +1,6 @@
 ---
 title: 分类
 date: 2023-03-11 11:55:00
-type: "categories"
 comments: false
 ---
 <!-- 文章分类统计图 -->

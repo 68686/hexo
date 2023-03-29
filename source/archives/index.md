@@ -1,7 +1,6 @@
 ---
 title: 归档
 date: 2023-03-11 11:55:00
-type: "archives"
 comments: false
 ---
 <!-- 文章发布时间统计图 -->
