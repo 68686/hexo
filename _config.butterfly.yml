@@ -5,10 +5,13 @@
 menu:
    首页: / || iconfont icon-home
    归档: /archives/ || iconfont icon-archive
-   统计|| iconfont icon-tongji:
-     标签: /tags/ || iconfont icon-hearttag
-     分类: /categories/ || iconfont icon-categories
-     发布: /posts/ || iconfont icon-time  
+   统计: /all/ || iconfont icon-tongji
+  #  统计|| iconfont icon-tongji:
+  #    标签: /tags/ || iconfont icon-hearttag
+  #    分类: /categories/ || iconfont icon-categories
+  #    发布: /posts/ || iconfont icon-time
+  #    git统计: /posts/ || iconfont icon-git
+  #    汇总: /all/ || iconfont icon-flower2
    链接: /link/ || iconfont icon-LINKS
    关于: /about/ || iconfont icon-heart
 
