@@ -1070,7 +1070,7 @@ gitcalendar:
     name: gitZone
     index: 0
   user: 68686 #git用户名
-  apiurl: 'https://compile.top/'	# 这是我的API，最好自己弄一个
+  apiurl: 'https://compile.top'	# 这是我的API，最好自己弄一个
   minheight:
     pc: 280px #桌面端最小高度
     mibile: 0px #移动端最小高度
